@@ -1,6 +1,8 @@
 package com.example.customlistviewapp;
 
-public class MyCharacter {
+import java.io.Serializable;
+
+public class MyCharacter implements Serializable {
     private String image;
     private String title;
     private String description;
